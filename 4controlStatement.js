@@ -58,11 +58,11 @@ switch (area) {
         break;
 
     case "Triangle":
-        console.log("The area of triangle is : " + (l*b)/2);
+        console.log("The area of triangle is : " + (l * b) / 2);
         break;
 
     case "Rectangle":
-        console.log("The area of circle is : " + (l*b));
+        console.log("The area of circle is : " + (l * b));
         break;
 
     default:
@@ -71,8 +71,8 @@ switch (area) {
 }
 
 // While loop
-var num =  0;
-while(num <= 10){
+var num = 0;
+while (num <= 10) {
     console.log(num);
     num++;
 }
@@ -80,10 +80,10 @@ while(num <= 10){
 
 // Do-While loop
 var num = 11;
-do{
+do {
     console.log(num);
     num++;
-}while(num <= 10)
+} while (num <= 10)
 
 /*
     Difference b/w do-while and while
@@ -92,13 +92,75 @@ do{
 
 // For loop
 var num = 10
-for(var i = 0; i<=num; i++){
+for (var i = 0; i <= num; i++) {
     console.log(i);
 }
 
 // Print Table Using for Loop
 var x = 8;
-for(var i = 1; i<=10; i++){
+for (var i = 1; i <= 10; i++) {
     console.log(`${x} * ${i} = ${x * i}`);
 }
 
+
+/*
+output
+Enjoy your day :)
+This year 2000 is a leap year
+We won the game😊
+You can vote
+The area of circle is : 20
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+0
+
+D:\DailyStuff\JavaScript>node 4controlStatement.js
+Enjoy your day :)
+This year 2000 is a leap year
+We won the game😊
+You can vote
+The area of circle is : 20
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+8 * 1 = 8
+8 * 2 = 16
+8 * 3 = 24
+8 * 4 = 32
+8 * 5 = 40
+8 * 6 = 48
+8 * 7 = 56
+8 * 8 = 64
+8 * 9 = 72
+8 * 10 = 80
+*/
