@@ -18,3 +18,14 @@ var iAmKul1 = 90;
 console.log(iAmKul);
 console.log(typeof(iAmKul1));
 
+// Some challenge.
+console.log(10 + "20");
+console.log(10 - "20");
+console.log("Java" + "Script");
+console.log(" " + " ");
+console.log(" " + 0);
+console.log("Kuldeep " + "Singh");
+console.log(true + true);
+console.log(true + false);
+console.log(false + false);
+console.log(false + true);
