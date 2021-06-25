@@ -7,7 +7,7 @@ var raining = false;
 
 if (raining) {
     console.log("take a raincoat")
-}else{
+} else {
     console.log("Enjoy your day :)");
 }
 
@@ -15,17 +15,17 @@ if (raining) {
 
 var year = 2000;
 // debugger;
-if(year%4 ===0){
-    if(year%100 === 0){
-        if(year%400 === 0){
+if (year % 4 === 0) {
+    if (year % 100 === 0) {
+        if (year % 400 === 0) {
             console.log("This year " + year + " is a leap year");
-        }else{
+        } else {
             console.log("This year " + year + " is not a leap year");
         }
-    }else{
+    } else {
         console.log("This year " + year + " is a leap year");
     }
-}else{
+} else {
     console.log("This year " + year + " is not a leap year");
 }
 
@@ -34,11 +34,71 @@ if(year%4 ===0){
 
 // var score = 0;
 var score = 10;
-if(score == 0){
+if (score == 0) {
     console.log("We loss the game🤢");
-}else{
+} else {
     console.log("We won the game😊");
 }
 
 /* Conditional (ternary) Operator */
+
+// var age = 17;
+var age = 27;
+console.log((age >= 18) ? "You can vote" : "You can't vote");
+
+// Switch Statement
+// var area = "Circle";
+// var area = "Triangle";
+var area = "Rectangle";
+// var area;
+var PI = 3.14, l = 5, b = 4, r = 3;
+switch (area) {
+    case "Circle":
+        console.log("The area of circle is : " + (PI * r ** 2));
+        break;
+
+    case "Triangle":
+        console.log("The area of triangle is : " + (l*b)/2);
+        break;
+
+    case "Rectangle":
+        console.log("The area of circle is : " + (l*b));
+        break;
+
+    default:
+        console.log("Inter proper input");
+        break;
+}
+
+// While loop
+var num =  0;
+while(num <= 10){
+    console.log(num);
+    num++;
+}
+
+
+// Do-While loop
+var num = 11;
+do{
+    console.log(num);
+    num++;
+}while(num <= 10)
+
+/*
+    Difference b/w do-while and while
+    do-while will execute atleast once.
+*/
+
+// For loop
+var num = 10
+for(var i = 0; i<=num; i++){
+    console.log(i);
+}
+
+// Print Table Using for Loop
+var x = 8;
+for(var i = 1; i<=10; i++){
+    console.log(`${x} * ${i} = ${x * i}`);
+}
 
