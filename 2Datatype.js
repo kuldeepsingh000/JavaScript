@@ -8,3 +8,5 @@ f - Symbol: typeOf instance === "symbol"
 */
 var myName = "Kuldeep Singh";
 console.log(myName);
+
+console.log(typeof(myName))
