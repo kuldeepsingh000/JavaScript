@@ -61,3 +61,19 @@ function sum() {
 const Sum = () => `The sum of the two number is ${(a = 5) + (b=9)}`;
 console.log(Sum());
 
+/*
+8 * 1 = 8
+8 * 2 = 16
+8 * 3 = 24
+8 * 4 = 32
+8 * 5 = 40
+8 * 6 = 48
+8 * 7 = 56
+8 * 8 = 64
+8 * 9 = 72
+8 * 10 = 80
+60
+120
+The sum of the two number is 11
+The sum of the two number is 14
+*/
