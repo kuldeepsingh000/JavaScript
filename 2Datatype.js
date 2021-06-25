@@ -8,15 +8,15 @@ f - Symbol: typeOf instance === "symbol"
 */
 var myName = "Kuldeep Singh";
 console.log(myName);
-console.log(typeof(myName))
+console.log(typeof (myName))
 
 var iAmKul = true;
 console.log(iAmKul);
-console.log(typeof(iAmKul));
+console.log(typeof (iAmKul));
 
 var iAmKul1 = 90;
 console.log(iAmKul);
-console.log(typeof(iAmKul1));
+console.log(typeof (iAmKul1));
 
 // Some challenge.
 console.log(10 + "20");
@@ -29,3 +29,23 @@ console.log(true + true);
 console.log(true + false);
 console.log(false + false);
 console.log(false + true);
+
+/*
+    Output
+    Kuldeep Singh
+    string
+    true
+    boolean
+    true
+    number
+    1020
+    -10
+    JavaScript
+
+    0
+    Kuldeep Singh
+    2
+    1
+    0
+    1
+*/
