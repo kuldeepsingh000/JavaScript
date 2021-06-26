@@ -223,9 +223,24 @@ let newNumberN2 = numberN2.map( (curr) => curr*2 ).filter((curr) => curr > 10);
 console.log(newNumberN2); // [ 12, 16 ]
 
 // Reduce() in JS
+// Add the elements of thet array.
 let arr1 = [5, 6, 2];
+
 let sum = arr1.reduce((accumulator, curr) => {
+    // debugger;
     return accumulator += curr;
 });
 console.log(sum); // 13 
 
+// How to flatten an array
+const arr2 = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7,8,9]
+]
+let flatArr = arr2.reduce((accum, currVal) => {
+    return accum.concat(currVal);
+});
+
+console.log(flatArr); // [ 1, 2, 3, 4, 5,6, 7, 8, 9 ]
+console.log(arr2.flat());// [ 1, 2, 3, 4, 5,6, 7, 8, 9 ]
