@@ -1,0 +1,1 @@
+var myFriends = ['Kul', 'deep', 11, 58.25, false];
