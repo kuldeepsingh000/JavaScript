@@ -223,4 +223,9 @@ let newNumberN2 = numberN2.map( (curr) => curr*2 ).filter((curr) => curr > 10);
 console.log(newNumberN2); // [ 12, 16 ]
 
 // Reduce() in JS
+let arr1 = [5, 6, 2];
+let sum = arr1.reduce((accumulator, curr) => {
+    return accumulator += curr;
+});
+console.log(sum); // 13 
 
