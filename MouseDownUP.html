@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        ::-moz-selection {
+            color: red;
+            background: yellow;
+        }
+
+        ::selection {
+            color: red;
+            background: black;
+        }
+    </style>
 </head>
+
 <body>
 
     <p id="mpdp" onmousedown="mouseDown()" onmouseup="mouseUp()">
-    Hiii
+        Hiii
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut voluptas minus eaque voluptates ducimus porro illum
+        nemo impedit at quis? Beatae deserunt iure vitae pariatur? Commodi nam nemo necessitatibus magnam.
     </p>
 
     <script>
-        function mouseUp(){
-            document.getElementById("mpdp").style.color = "yellow";
+        function mouseUp() {
+            const z = document.getElementById("mpdp");
+            z.style.color = "yellow";
         }
 
-        function mouseDown(){
+        function mouseDown() {
             document.getElementById("mpdp").style.color = "tomato";
         }
 
     </script>
 
 </body>
+
 </html>
