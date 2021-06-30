@@ -7,28 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LightOnAndOff</title>
 
-    <style>
-        #myImage{
-            width: 200px;
-            position:relative;
-        }
-        .in-center{
-            position: relative;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 </head>
 
 <body>
-    <div class="in-center">
-        <h1>Can you turn the light on</h1>
-        <button onclick=" document.getElementById('myImage').src = 'Image/ONbulb.jpg' ">
+    
+    <div >
+        <h1> <span class="badge bg-primary">Can you turn the light on</span></h1>
+        <button onclick=" document.getElementById('myImage').src = 'Image/ONbulb.jpg' " class="btn btn-success">
             Click Here To Turn On The Light
         </button>
 
-        <img src="Image/OFFbulb.jpg" alt="lightOFF" srcset="" id="myImage">
+        <img src="Image/OFFbulb.jpg" alt="lightOFF" srcset="" id="myImage" class="img-fluid">
 
-        <button onclick=" document.getElementById('myImage').src = 'Image/OFFbulb.jpg' ">
+        <button onclick=" document.getElementById('myImage').src = 'Image/OFFbulb.jpg' " class="btn btn-danger">
             Click Here To Turn OFF The Light
         </button>
     </div>
